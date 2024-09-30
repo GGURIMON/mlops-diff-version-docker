@@ -1,4 +1,4 @@
-name: EC2 Auto Deploy
+name: EC2 Auto Deploy!
 
 on: push  # main 브랜치에 푸시될 때만 트리거
 
