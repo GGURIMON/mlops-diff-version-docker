@@ -1,4 +1,4 @@
-name: EC2 Auto Deploy!
+name: EC2 Auto Deploy
 
 on: push  # main 브랜치에 푸시될 때만 트리거
 
@@ -25,7 +25,7 @@ jobs:
         with:
             push: true
             tags: taekkim/iris-inference:latest
-            cache-from: type=registry,ref=taekkim/iris-inference:latest
+            cache-from: type=registry,ref=gguri/iris-inference:latest
             cache-to: type=inline
 
       # SSH를 이용해 EC2 서버로 배포
